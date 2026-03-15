@@ -21,14 +21,28 @@ This project uses `renv` to ensure environment reproducibility.
 
 ### Setup Instructions
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/dvorster/DSCI_532_ia.git](https://github.com/dvorster/DSCI_532_ia.git)
-   cd DSCI_532_ia
+```bash
+git clone [https://github.com/dvorster/DSCI_532_ia.git](https://github.com/dvorster/DSCI_532_ia.git)
+cd DSCI_532_ia
+```
+
+## 2. Open Rstudio and navigate to the project folder
+
+#### Open Rstudio
+```bash
+open -a Rstudio
+```
+
+Navigate to project folder. Once inside click on `DSCI_532_ia.Rproj` to activate the project.
 
 ## 2. Create the R Environment 
 
+Run the following in the RStudio console to activate the R environment:
 ```bash
 install.packages("renv")
+```
+
+```bash
 renv::restore()
 ```
 
@@ -38,17 +52,9 @@ renv::restore()
 shiny::runApp()
 ```
 
-Open your web browser and navigate to the url below:
-
-<http://127.0.0.1:8000>
-
 
 ## 4.Stop the App
-In the terminal, enter: 
+In the console, enter: 
 ```bash
 Ctrl + C
 ```
-
-# Contributors
- If you are looking to contribute ot the project please refer to the guidelines in this document: 
- [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
