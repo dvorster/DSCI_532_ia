@@ -1,0 +1,24 @@
+{
+    "id": "70815CE9",
+    "path": "~/mds/532/lab/DSCI_532_ia/renv.lock",
+    "project_path": "renv.lock",
+    "type": "json",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1773536649799.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1773535786,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1773535786,
+    "read_only": false,
+    "read_only_alternatives": []
+}
